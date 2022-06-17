@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;    
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to right,#F5B041,#F4D03F);
+}
+
+.all{
+    width: 98%;
+    height: 98vh;
+    background-color: #ffffff;
+    margin: 5px;
+    border-radius: 5px;
+    
+}
+
+.logo{
+    width: 20vh;
+    display: inline;
+    line-height: 28px;
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    transition: 0.9s;
+}
+
+.header{
+    height: 60px;
+    line-height: 28px;
+    border: 3px solid;
+}
+
+.menu {
+    font-size: 30px;
+    color: #5D6D7E;
+    text-align: right;
+    padding: 5px;
+}
+
+.menu-bt i{
+    font-size: 25px;
+}
+
+.menu-bt{
+    width: 33px;
+    height: 33px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    border-style: none;
+    margin-top: 5px;
+    transition: 0.9s;
+}
+
+.zoom:hover button{
+    transform: scale(1.2,1.2);
+}
+
+.zoom:hover img{
+    transform: scale(1.1,1.1);
+}
+
+
+
+
+
+.input{
+    position: absolute;
+    padding: 5px;
+    top: 20px;
+    right: 180px;
+    width: 100px;
+    height: 30px;
+    background-image: linear-gradient(to right,#F5B041,#F4D03F);
+    border-style: none;
+    border-radius: 100px;
+    transition: all 0.9s ease;
+}
+
+.close{
+    position: absolute;
+    right: 183px;
+    font-size: 20px;
+    top: 25px;
+}
+
+.hide{
+    display: none;
+}
+
+
+
+
